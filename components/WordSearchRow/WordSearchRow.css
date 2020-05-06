@@ -1,0 +1,10 @@
+.word-search-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+
+.word-search-row:last-child {
+  padding: 0;
+}

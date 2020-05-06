@@ -1,0 +1,11 @@
+.word-search-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+@media (min-width: 700px) {
+  .word-search-body {
+    flex-direction: row;
+  }
+}
